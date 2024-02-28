@@ -1,0 +1,7 @@
+## YAML Template.
+---
+
+topicos:
+  pagamento:
+    request:
+      topic: "pagamento.request.topic.0060"
