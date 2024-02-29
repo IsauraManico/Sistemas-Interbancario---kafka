@@ -1,3 +1,2 @@
-# Recurso-sdp2
-# Recurso-sdp2
-# PROJECTO-SDP2-Recurso
+Joseph Cipriano - 22570
+Isaura Manico - 20507
