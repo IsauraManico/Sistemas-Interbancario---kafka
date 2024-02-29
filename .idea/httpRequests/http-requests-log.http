@@ -1,0 +1,530 @@
+GET http://localhost:8086/sb24/transacoes/listarNoBanco
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T190346.200.json
+
+###
+
+GET http://localhost:8087/sb24/transacoes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T185947.200.json
+
+###
+
+GET http://localhost:8086/sb24/transacoes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T185536.200.json
+
+###
+
+GET http://localhost:8085/sb24/transacoes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T165108.200.json
+
+###
+
+POST http://localhost:8087/sb24/transferir/transferencia-interna
+Content-Type: application/json
+Content-Length: 163
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "pk": 1,
+  "contaOrigemIban": "AO06003052548535101",
+  "contaDestinoIban": "AO06003040176865101",
+  "encargos": 0,
+  "montante": 5,
+  "status": 0,
+  "pk2": 2
+}
+
+<> 2024-02-29T163458.200.txt
+
+###
+
+GET http://localhost:8087/sb24/contas
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T163350.200.json
+
+###
+
+GET http://localhost:8086/sb24/contas
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T125829.200.json
+
+###
+
+GET http://localhost:8084/history/findByConta/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T123551.200.json
+
+###
+
+GET http://localhost:8086/history/findByConta/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T122543.200.json
+
+###
+
+GET http://localhost:8086/history/findConta/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/1/findConta/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/1/findConta/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/2/findConta/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/1/findConta/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/1/findConta/7
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/1/findConta/7
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/find/7
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T111734.200.json
+
+###
+
+GET http://localhost:8086/history/find/7
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/find/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/find/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/find/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/findAll
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T105632.200.json
+
+###
+
+GET http://localhost:8086/history/find/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/find/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/find/90792576
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/find/90792576
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8086/history/find
+Content-Type: application/json
+Content-Length: 154
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "pkConta": 3,
+  "fkCliente": {},
+  "saldoDisponivel": 0,
+  "saldoContabilistico": 0,
+  "dataCriacao": {},
+  "iban": "",
+  "numero_conta": "57399120"
+}
+
+###
+
+POST http://localhost:8086/history/find
+Content-Type: application/json
+Content-Length: 154
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "pkConta": 3,
+  "fkCliente": {},
+  "saldoDisponivel": 0,
+  "saldoContabilistico": 0,
+  "dataCriacao": {},
+  "iban": "",
+  "numero_conta": "57399120"
+}
+
+###
+
+POST http://localhost:8086/history/find
+Content-Type: application/json
+Content-Length: 154
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "pkConta": 3,
+  "fkCliente": {},
+  "saldoDisponivel": 0,
+  "saldoContabilistico": 0,
+  "dataCriacao": {},
+  "iban": "",
+  "numero_conta": "57399120"
+}
+
+###
+
+POST http://localhost:8086/history/find
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "pkConta": 3,
+  "fkCliente": {},
+  "saldoDisponivel": 0,
+  "saldoContabilistico": 0,
+  "dataCriacao": {},
+  "iban": "",
+  "numero_conta": ""
+}
+
+###
+
+GET http://localhost:8086/history/find/57399120
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/findAll
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T085901.200.json
+
+###
+
+GET http://localhost:8086/sb24/contas
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T085837.200.json
+
+###
+
+GET http://localhost:8086/history/find/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/find/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8086/history/find
+Content-Type: application/json
+Content-Length: 173
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "pkConta": 3,
+  "fkCliente": {},
+  "saldoDisponivel": 0,
+  "saldoContabilistico": 0,
+  "dataCriacao": {},
+  "iban": "AO06000690792576101",
+  "numero_conta": "90792576"
+}
+
+###
+
+GET http://localhost:8086/sb24/contas
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T085100.200.json
+
+###
+
+POST http://localhost:8086/history/find
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "pkConta": 3,
+  "fkCliente": {},
+  "saldoDisponivel": 0,
+  "saldoContabilistico": 0,
+  "dataCriacao": {},
+  "iban": "",
+  "numero_conta": ""
+}
+
+###
+
+GET http://localhost:8086/sb24/contas
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T085033.200.json
+
+###
+
+POST http://localhost:8086/history/find
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "pkConta": 1,
+  "fkCliente": {},
+  "saldoDisponivel": 0,
+  "saldoContabilistico": 0,
+  "dataCriacao": {},
+  "iban": "",
+  "numero_conta": ""
+}
+
+###
+
+GET http://localhost:8086/history/find
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8086/history/findAll
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T081457.200.json
+
+###
+
+GET http://localhost:8086/sb24/clientes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T081340.200.json
+
+###
+
+GET http://localhost:8086/sb24/clientes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-29T080157.200.json
+
+###
+
+GET http://localhost:8087/sb24/contas
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-28T200737.200.json
+
+###
+
+GET http://localhost:8087/sb24/contas
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-28T200615.200.json
+
+###
+
+GET http://localhost:8086/sb24/contas
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-28T200101.200.json
+
+###
+
+POST http://localhost:8084/sb24/transferir/transferencia-interna
+Content-Type: application/json
+Content-Length: 163
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "pk": 1,
+  "contaOrigemIban": "AO06004088177279101",
+  "contaDestinoIban": "AO06004061672490101",
+  "encargos": 0,
+  "montante": 5,
+  "status": 0,
+  "pk2": 2
+}
+
+<> 2024-02-28T151911.200.txt
+
+###
+
+POST http://localhost:8086/sb24/transferir/transferencia-interna
+Content-Type: application/json
+Content-Length: 163
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "pk": 1,
+  "contaOrigemIban": "AO06004088177279101",
+  "contaDestinoIban": "AO06004061672490101",
+  "encargos": 0,
+  "montante": 5,
+  "status": 0,
+  "pk2": 2
+}
+
+<> 2024-02-28T151747.200.txt
+
+###
+
+POST http://localhost:8086/sb24/transferir/transferencia-intermediada
+Content-Type: application/json
+Content-Length: 163
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "pk": 1,
+  "contaOrigemIban": "AO06004088177279101",
+  "contaDestinoIban": "AO06004061672490101",
+  "encargos": 0,
+  "montante": 5,
+  "status": 0,
+  "pk2": 2
+}
+
+<> 2024-02-28T151724.200.txt
+
+###
+

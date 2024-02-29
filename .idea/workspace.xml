@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fdc85f8a-1da8-41d1-a5c3-57ac4ffdb6f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/BancoFomentoAngola/src/main/java/ucan/edu/sb24/controller/TransacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BancoFomentoAngola/src/main/java/ucan/edu/sb24/controller/TransacaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BancoFomentoAngola/src/main/java/ucan/edu/sb24/serviceImpl/TransferenciaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BancoFomentoAngola/src/main/java/ucan/edu/sb24/serviceImpl/TransferenciaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BancoFomentoAngola/target/classes/ucan/edu/sb24/serviceImpl/TransferenciaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/BancoFomentoAngola/target/classes/ucan/edu/sb24/serviceImpl/TransferenciaServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Emis/src/main/java/ucan/edu/emis/consumidor/ErrorTransferenciaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Emis/src/main/java/ucan/edu/emis/consumidor/ErrorTransferenciaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StandardBank/src/main/java/ucan/edu/sb24/controller/TransacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StandardBank/src/main/java/ucan/edu/sb24/controller/TransacaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StandardBank/src/main/java/ucan/edu/sb24/serviceImpl/TransferenciaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/StandardBank/src/main/java/ucan/edu/sb24/serviceImpl/TransferenciaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bic/src/main/java/ucan/edu/bic/controller/TransacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bic/src/main/java/ucan/edu/bic/controller/TransacaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bic/src/main/java/ucan/edu/bic/serviceImpl/TransferenciaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bic/src/main/java/ucan/edu/bic/serviceImpl/TransferenciaServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2cyM8Ew3cuX6lV36bgCxiFSy2vT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.generated-requests | #197.executor": "Run",
+    "HTTP Request.generated-requests | #203.executor": "Run",
+    "HTTP Request.generated-requests | #205.executor": "Run",
+    "HTTP Request.generated-requests | #206.executor": "Run",
+    "HTTP Request.generated-requests | #207.executor": "Run",
+    "HTTP Request.generated-requests | #208.executor": "Run",
+    "HTTP Request.generated-requests | #209.executor": "Run",
+    "HTTP Request.generated-requests | #212.executor": "Run",
+    "HTTP Request.generated-requests | #213.executor": "Run",
+    "HTTP Request.generated-requests | #214.executor": "Run",
+    "HTTP Request.generated-requests | #216.executor": "Run",
+    "HTTP Request.generated-requests | #217.executor": "Run",
+    "HTTP Request.generated-requests | #218.executor": "Run",
+    "HTTP Request.generated-requests | #219.executor": "Run",
+    "HTTP Request.generated-requests | #220.executor": "Run",
+    "HTTP Request.generated-requests | #221.executor": "Run",
+    "HTTP Request.generated-requests | #222.executor": "Run",
+    "HTTP Request.generated-requests | #223.executor": "Run",
+    "HTTP Request.generated-requests | #224.executor": "Run",
+    "HTTP Request.generated-requests | #225.executor": "Run",
+    "HTTP Request.generated-requests | #226.executor": "Run",
+    "HTTP Request.generated-requests | #227.executor": "Run",
+    "HTTP Request.generated-requests | #228.executor": "Run",
+    "HTTP Request.generated-requests | #229.executor": "Run",
+    "HTTP Request.generated-requests | #230.executor": "Run",
+    "HTTP Request.generated-requests | #231.executor": "Run",
+    "HTTP Request.generated-requests | #232.executor": "Run",
+    "HTTP Request.generated-requests | #233.executor": "Run",
+    "HTTP Request.generated-requests | #234.executor": "Run",
+    "HTTP Request.generated-requests | #235.executor": "Run",
+    "HTTP Request.generated-requests | #236.executor": "Run",
+    "HTTP Request.generated-requests | #242.executor": "Run",
+    "HTTP Request.generated-requests | #244.executor": "Run",
+    "HTTP Request.generated-requests | #248.executor": "Run",
+    "HTTP Request.generated-requests | #249.executor": "Run",
+    "HTTP Request.generated-requests | #250.executor": "Run",
+    "HTTP Request.generated-requests | #251.executor": "Run",
+    "HTTP Request.generated-requests | #252.executor": "Run",
+    "HTTP Request.generated-requests | #253.executor": "Run",
+    "HTTP Request.generated-requests | #254.executor": "Run",
+    "HTTP Request.generated-requests | #256.executor": "Run",
+    "HTTP Request.generated-requests | #257.executor": "Run",
+    "HTTP Request.generated-requests | #258.executor": "Run",
+    "HTTP Request.generated-requests | #259.executor": "Run",
+    "HTTP Request.generated-requests | #260.executor": "Run",
+    "HTTP Request.generated-requests | #261.executor": "Run",
+    "HTTP Request.generated-requests | #262.executor": "Run",
+    "HTTP Request.generated-requests | #263.executor": "Run",
+    "HTTP Request.generated-requests | #264.executor": "Run",
+    "HTTP Request.generated-requests | #265.executor": "Run",
+    "HTTP Request.generated-requests | #266.executor": "Run",
+    "HTTP Request.generated-requests | #267.executor": "Run",
+    "HTTP Request.generated-requests | #269.executor": "Run",
+    "HTTP Request.generated-requests | #270.executor": "Run",
+    "HTTP Request.generated-requests | #271.executor": "Run",
+    "JUnit.ClienteRepositoryTest.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.BicApplication.executor": "Run",
+    "Spring Boot.EmisApplication.executor": "Run",
+    "Spring Boot.Sb24Application (1).executor": "Run",
+    "Spring Boot.Sb24Application (2).executor": "Run",
+    "Spring Boot.Sb24Application (3).executor": "Run",
+    "Spring Boot.Sb24Application.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/isaura/Documents/PROJETO-SDP2/StandardBank/src/main/java/ucan/edu/sb24",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/StandardBank/src/main/java/ucan/edu/sb24" />
+      <recent name="$PROJECT_DIR$/bic/src/main/java/ucan/edu/bic" />
+      <recent name="$PROJECT_DIR$/BancoFomentoAngola/src/main/java/ucan/edu/sb24" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/StandardBank/src/main/java/ucan/edu/sb24/controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ucan.edu.sb24.controller" />
+      <recent name="ucan.edu.sb24.repository" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Sb24Application">
+    <configuration name="generated-requests | #266" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="266" requestIdentifier="#266" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #267" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="267" requestIdentifier="#267" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #269" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="269" requestIdentifier="#269" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #270" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="270" requestIdentifier="#270" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #271" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="271" requestIdentifier="#271" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="EmisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="emis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ucan.edu.emis.EmisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sb24Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="sb24 (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ucan.edu.sb24.Sb24Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sb24Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="bic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ucan.edu.bic.Sb24Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sb24Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="sb24" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ucan.edu.sb24.Sb24Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sb24Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="bic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ucan.edu.bic.Sb24Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #271" />
+        <item itemvalue="HTTP Request.generated-requests | #270" />
+        <item itemvalue="HTTP Request.generated-requests | #269" />
+        <item itemvalue="HTTP Request.generated-requests | #267" />
+        <item itemvalue="HTTP Request.generated-requests | #266" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-86fc8109" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdc85f8a-1da8-41d1-a5c3-57ac4ffdb6f4" name="Changes" comment="" />
+      <created>1709079203756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709079203756</updated>
+      <workItem from="1709079204807" duration="2054000" />
+      <workItem from="1709084246937" duration="11977000" />
+      <workItem from="1709113143475" duration="4356000" />
+      <workItem from="1709123590064" duration="6303000" />
+      <workItem from="1709142144185" duration="1021000" />
+      <workItem from="1709144946757" duration="4210000" />
+      <workItem from="1709159831191" duration="20088000" />
+      <workItem from="1709220223538" duration="6632000" />
+      <workItem from="1709228800981" duration="1290000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

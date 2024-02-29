@@ -1,0 +1,119 @@
+[
+  {
+    "pkTransacao": 1,
+    "encargos": 0.0,
+    "dataInicial": "2024-02-28T02:33:54.255+00:00",
+    "dataFinal": "2024-02-28T02:33:56.090+00:00",
+    "montante": 1000.0,
+    "fkStatus": {
+      "pkStatus": 1,
+      "descricao": "PENDENTE"
+    },
+    "contaOrigemIban": "AO06003079630833101",
+    "contaDestinoIban": "AO06000657399120101"
+  },
+  {
+    "pkTransacao": 2,
+    "encargos": 0.0,
+    "dataInicial": "2024-02-28T07:24:05.961+00:00",
+    "dataFinal": "2024-02-28T07:24:07.607+00:00",
+    "montante": 1000.0,
+    "fkStatus": {
+      "pkStatus": 1,
+      "descricao": "PENDENTE"
+    },
+    "contaOrigemIban": "AO06003079630833101",
+    "contaDestinoIban": "AO06000657399120101"
+  },
+  {
+    "pkTransacao": 3,
+    "encargos": 0.0,
+    "dataInicial": "2024-02-28T07:31:27.839+00:00",
+    "dataFinal": "2024-02-28T07:31:28.084+00:00",
+    "montante": 1000.0,
+    "fkStatus": {
+      "pkStatus": 1,
+      "descricao": "PENDENTE"
+    },
+    "contaOrigemIban": "AO06003052548535101",
+    "contaDestinoIban": "AO06003079630833101"
+  },
+  {
+    "pkTransacao": 4,
+    "encargos": 0.0,
+    "dataInicial": "2024-02-28T07:32:23.673+00:00",
+    "dataFinal": "2024-02-28T07:32:23.673+00:00",
+    "montante": 1000.0,
+    "fkStatus": {
+      "pkStatus": 1,
+      "descricao": "PENDENTE"
+    },
+    "contaOrigemIban": "AO06003052548535101",
+    "contaDestinoIban": "AO06003079630833101"
+  },
+  {
+    "pkTransacao": 5,
+    "encargos": 0.0,
+    "dataInicial": "2024-02-28T09:01:01.078+00:00",
+    "dataFinal": "2024-02-28T09:01:01.078+00:00",
+    "montante": 50.0,
+    "fkStatus": {
+      "pkStatus": 1,
+      "descricao": "PENDENTE"
+    },
+    "contaOrigemIban": "AO06003040176865101",
+    "contaDestinoIban": "AO06003079630833101"
+  },
+  {
+    "pkTransacao": 6,
+    "encargos": 0.0,
+    "dataInicial": "2024-02-28T13:44:32.033+00:00",
+    "dataFinal": "2024-02-28T13:44:32.033+00:00",
+    "montante": 50.0,
+    "fkStatus": {
+      "pkStatus": 1,
+      "descricao": "PENDENTE"
+    },
+    "contaOrigemIban": "AO06003040176865101",
+    "contaDestinoIban": "AO06003079630833101"
+  },
+  {
+    "pkTransacao": 7,
+    "encargos": 0.0,
+    "dataInicial": "2024-02-28T13:49:21.361+00:00",
+    "dataFinal": "2024-02-28T13:49:21.361+00:00",
+    "montante": 10.0,
+    "fkStatus": {
+      "pkStatus": 1,
+      "descricao": "PENDENTE"
+    },
+    "contaOrigemIban": "AO06003040176865101",
+    "contaDestinoIban": "AO06003079630833101"
+  },
+  {
+    "pkTransacao": 8,
+    "encargos": 0.0,
+    "dataInicial": "2024-02-28T14:14:17.963+00:00",
+    "dataFinal": "2024-02-28T14:14:17.963+00:00",
+    "montante": 5.0,
+    "fkStatus": {
+      "pkStatus": 1,
+      "descricao": "PENDENTE"
+    },
+    "contaOrigemIban": "AO06000690792576101",
+    "contaDestinoIban": "AO06003040176865101"
+  },
+  {
+    "pkTransacao": 9,
+    "encargos": 0.0,
+    "dataInicial": "2024-02-29T15:34:58.273+00:00",
+    "dataFinal": "2024-02-29T15:34:58.273+00:00",
+    "montante": 5.0,
+    "fkStatus": {
+      "pkStatus": 1,
+      "descricao": "PENDENTE"
+    },
+    "contaOrigemIban": "AO06003052548535101",
+    "contaDestinoIban": "AO06003040176865101"
+  }
+]

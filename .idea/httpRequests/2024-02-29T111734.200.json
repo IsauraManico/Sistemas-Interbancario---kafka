@@ -1,0 +1,34 @@
+{
+  "pk_historico_transacao": 7,
+  "fk_conta": {
+    "pkConta": 7,
+    "fkCliente": {
+      "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+      "nome": "ely",
+      "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+      "telefone": "9888888",
+      "email": "ely.com",
+      "morada": null,
+      "password": null,
+      "contaRole": null,
+      "authorities": [
+        {
+          "authority": "CLIENTE"
+        }
+      ],
+      "username": "ely.com",
+      "accountNonExpired": true,
+      "accountNonLocked": true,
+      "credentialsNonExpired": true,
+      "enabled": true
+    },
+    "saldoDisponivel": 2305.0,
+    "saldoContabilistico": 7015.0,
+    "dataCriacao": "2024-02-26T16:34:35.554+00:00",
+    "iban": "AO06000657399120101",
+    "numero_conta": "57399120"
+  },
+  "datTransacao": "2024-02-27T23:00:00.000+00:00",
+  "saldo": -5.0,
+  "descricao": null
+}

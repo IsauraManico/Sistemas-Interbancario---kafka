@@ -1,0 +1,716 @@
+[
+  {
+    "pk_historico_transacao": 1,
+    "fk_conta": {
+      "pkConta": 7,
+      "fkCliente": {
+        "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+        "nome": "ely",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9888888",
+        "email": "ely.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "ely.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 2305.0,
+      "saldoContabilistico": 7015.0,
+      "dataCriacao": "2024-02-26T16:34:35.554+00:00",
+      "iban": "AO06000657399120101",
+      "numero_conta": "57399120"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": 10.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 2,
+    "fk_conta": {
+      "pkConta": 3,
+      "fkCliente": {
+        "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+        "nome": "Sara",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9300000",
+        "email": "sara.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "sara.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 160.0,
+      "saldoContabilistico": 725.0,
+      "dataCriacao": "2024-02-26T16:21:56.890+00:00",
+      "iban": "AO06000690792576101",
+      "numero_conta": "90792576"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": 10.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 3,
+    "fk_conta": {
+      "pkConta": 7,
+      "fkCliente": {
+        "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+        "nome": "ely",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9888888",
+        "email": "ely.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "ely.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 2305.0,
+      "saldoContabilistico": 7015.0,
+      "dataCriacao": "2024-02-26T16:34:35.554+00:00",
+      "iban": "AO06000657399120101",
+      "numero_conta": "57399120"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 5,
+    "fk_conta": {
+      "pkConta": 7,
+      "fkCliente": {
+        "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+        "nome": "ely",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9888888",
+        "email": "ely.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "ely.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 2305.0,
+      "saldoContabilistico": 7015.0,
+      "dataCriacao": "2024-02-26T16:34:35.554+00:00",
+      "iban": "AO06000657399120101",
+      "numero_conta": "57399120"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 7,
+    "fk_conta": {
+      "pkConta": 7,
+      "fkCliente": {
+        "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+        "nome": "ely",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9888888",
+        "email": "ely.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "ely.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 2305.0,
+      "saldoContabilistico": 7015.0,
+      "dataCriacao": "2024-02-26T16:34:35.554+00:00",
+      "iban": "AO06000657399120101",
+      "numero_conta": "57399120"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 9,
+    "fk_conta": {
+      "pkConta": 7,
+      "fkCliente": {
+        "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+        "nome": "ely",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9888888",
+        "email": "ely.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "ely.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 2305.0,
+      "saldoContabilistico": 7015.0,
+      "dataCriacao": "2024-02-26T16:34:35.554+00:00",
+      "iban": "AO06000657399120101",
+      "numero_conta": "57399120"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 11,
+    "fk_conta": {
+      "pkConta": 3,
+      "fkCliente": {
+        "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+        "nome": "Sara",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9300000",
+        "email": "sara.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "sara.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 160.0,
+      "saldoContabilistico": 725.0,
+      "dataCriacao": "2024-02-26T16:21:56.890+00:00",
+      "iban": "AO06000690792576101",
+      "numero_conta": "90792576"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 13,
+    "fk_conta": {
+      "pkConta": 3,
+      "fkCliente": {
+        "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+        "nome": "Sara",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9300000",
+        "email": "sara.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "sara.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 160.0,
+      "saldoContabilistico": 725.0,
+      "dataCriacao": "2024-02-26T16:21:56.890+00:00",
+      "iban": "AO06000690792576101",
+      "numero_conta": "90792576"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 15,
+    "fk_conta": {
+      "pkConta": 3,
+      "fkCliente": {
+        "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+        "nome": "Sara",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9300000",
+        "email": "sara.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "sara.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 160.0,
+      "saldoContabilistico": 725.0,
+      "dataCriacao": "2024-02-26T16:21:56.890+00:00",
+      "iban": "AO06000690792576101",
+      "numero_conta": "90792576"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 17,
+    "fk_conta": {
+      "pkConta": 3,
+      "fkCliente": {
+        "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+        "nome": "Sara",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9300000",
+        "email": "sara.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "sara.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 160.0,
+      "saldoContabilistico": 725.0,
+      "dataCriacao": "2024-02-26T16:21:56.890+00:00",
+      "iban": "AO06000690792576101",
+      "numero_conta": "90792576"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 19,
+    "fk_conta": {
+      "pkConta": 3,
+      "fkCliente": {
+        "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+        "nome": "Sara",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9300000",
+        "email": "sara.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "sara.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 160.0,
+      "saldoContabilistico": 725.0,
+      "dataCriacao": "2024-02-26T16:21:56.890+00:00",
+      "iban": "AO06000690792576101",
+      "numero_conta": "90792576"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 21,
+    "fk_conta": {
+      "pkConta": 3,
+      "fkCliente": {
+        "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+        "nome": "Sara",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9300000",
+        "email": "sara.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "sara.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 160.0,
+      "saldoContabilistico": 725.0,
+      "dataCriacao": "2024-02-26T16:21:56.890+00:00",
+      "iban": "AO06000690792576101",
+      "numero_conta": "90792576"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 22,
+    "fk_conta": {
+      "pkConta": 7,
+      "fkCliente": {
+        "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+        "nome": "ely",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9888888",
+        "email": "ely.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "ely.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 2305.0,
+      "saldoContabilistico": 7015.0,
+      "dataCriacao": "2024-02-26T16:34:35.554+00:00",
+      "iban": "AO06000657399120101",
+      "numero_conta": "57399120"
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": 5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 23,
+    "fk_conta": {
+      "pkConta": 3,
+      "fkCliente": {
+        "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+        "nome": "Sara",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9300000",
+        "email": "sara.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "sara.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 160.0,
+      "saldoContabilistico": 725.0,
+      "dataCriacao": "2024-02-26T16:21:56.890+00:00",
+      "iban": "AO06000690792576101",
+      "numero_conta": "90792576"
+    },
+    "datTransacao": "2024-02-28T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 24,
+    "fk_conta": {
+      "pkConta": 7,
+      "fkCliente": {
+        "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+        "nome": "ely",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9888888",
+        "email": "ely.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "ely.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 2305.0,
+      "saldoContabilistico": 7015.0,
+      "dataCriacao": "2024-02-26T16:34:35.554+00:00",
+      "iban": "AO06000657399120101",
+      "numero_conta": "57399120"
+    },
+    "datTransacao": "2024-02-28T23:00:00.000+00:00",
+    "saldo": 5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 25,
+    "fk_conta": {
+      "pkConta": 3,
+      "fkCliente": {
+        "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+        "nome": "Sara",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9300000",
+        "email": "sara.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "sara.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 160.0,
+      "saldoContabilistico": 725.0,
+      "dataCriacao": "2024-02-26T16:21:56.890+00:00",
+      "iban": "AO06000690792576101",
+      "numero_conta": "90792576"
+    },
+    "datTransacao": "2024-02-28T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 26,
+    "fk_conta": {
+      "pkConta": 7,
+      "fkCliente": {
+        "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+        "nome": "ely",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9888888",
+        "email": "ely.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "ely.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 2305.0,
+      "saldoContabilistico": 7015.0,
+      "dataCriacao": "2024-02-26T16:34:35.554+00:00",
+      "iban": "AO06000657399120101",
+      "numero_conta": "57399120"
+    },
+    "datTransacao": "2024-02-28T23:00:00.000+00:00",
+    "saldo": 5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 27,
+    "fk_conta": {
+      "pkConta": 3,
+      "fkCliente": {
+        "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+        "nome": "Sara",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9300000",
+        "email": "sara.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "sara.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 160.0,
+      "saldoContabilistico": 725.0,
+      "dataCriacao": "2024-02-26T16:21:56.890+00:00",
+      "iban": "AO06000690792576101",
+      "numero_conta": "90792576"
+    },
+    "datTransacao": "2024-02-28T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 28,
+    "fk_conta": {
+      "pkConta": 7,
+      "fkCliente": {
+        "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+        "nome": "ely",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9888888",
+        "email": "ely.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "ely.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 2305.0,
+      "saldoContabilistico": 7015.0,
+      "dataCriacao": "2024-02-26T16:34:35.554+00:00",
+      "iban": "AO06000657399120101",
+      "numero_conta": "57399120"
+    },
+    "datTransacao": "2024-02-28T23:00:00.000+00:00",
+    "saldo": 5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 29,
+    "fk_conta": {
+      "pkConta": 3,
+      "fkCliente": {
+        "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+        "nome": "Sara",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9300000",
+        "email": "sara.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "sara.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 160.0,
+      "saldoContabilistico": 725.0,
+      "dataCriacao": "2024-02-26T16:21:56.890+00:00",
+      "iban": "AO06000690792576101",
+      "numero_conta": "90792576"
+    },
+    "datTransacao": "2024-02-28T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 30,
+    "fk_conta": {
+      "pkConta": 7,
+      "fkCliente": {
+        "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+        "nome": "ely",
+        "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+        "telefone": "9888888",
+        "email": "ely.com",
+        "morada": null,
+        "password": null,
+        "contaRole": null,
+        "authorities": [
+          {
+            "authority": "CLIENTE"
+          }
+        ],
+        "username": "ely.com",
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true
+      },
+      "saldoDisponivel": 2305.0,
+      "saldoContabilistico": 7015.0,
+      "dataCriacao": "2024-02-26T16:34:35.554+00:00",
+      "iban": "AO06000657399120101",
+      "numero_conta": "57399120"
+    },
+    "datTransacao": "2024-02-28T23:00:00.000+00:00",
+    "saldo": 5.0,
+    "descricao": null
+  }
+]

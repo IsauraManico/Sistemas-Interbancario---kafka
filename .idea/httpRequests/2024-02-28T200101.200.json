@@ -1,0 +1,58 @@
+[
+  {
+    "pkConta": 3,
+    "fkCliente": {
+      "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+      "nome": "Sara",
+      "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+      "telefone": "9300000",
+      "email": "sara.com",
+      "morada": null,
+      "password": null,
+      "contaRole": null,
+      "authorities": [
+        {
+          "authority": "CLIENTE"
+        }
+      ],
+      "username": "sara.com",
+      "accountNonExpired": true,
+      "accountNonLocked": true,
+      "credentialsNonExpired": true,
+      "enabled": true
+    },
+    "saldoDisponivel": 85.0,
+    "saldoContabilistico": 650.0,
+    "dataCriacao": "2024-02-26T16:21:56.890+00:00",
+    "iban": "AO06000690792576101",
+    "numero_conta": "90792576"
+  },
+  {
+    "pkConta": 7,
+    "fkCliente": {
+      "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+      "nome": "ely",
+      "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+      "telefone": "9888888",
+      "email": "ely.com",
+      "morada": null,
+      "password": null,
+      "contaRole": null,
+      "authorities": [
+        {
+          "authority": "CLIENTE"
+        }
+      ],
+      "username": "ely.com",
+      "accountNonExpired": true,
+      "accountNonLocked": true,
+      "credentialsNonExpired": true,
+      "enabled": true
+    },
+    "saldoDisponivel": 2280.0,
+    "saldoContabilistico": 6990.0,
+    "dataCriacao": "2024-02-26T16:34:35.554+00:00",
+    "iban": "AO06000657399120101",
+    "numero_conta": "57399120"
+  }
+]

@@ -60,9 +60,12 @@ public class TransferenciaServiceImpl implements TransferenciaService {
         beneficiario = contaService.obterContaPorIban(transferenciaRequest.getContaDestinoIban());
         valor = transferenciaRequest.getEncargos() + transferenciaRequest.getMontante();
 
-        if (ordenante == null || beneficiario == null) {
-            return "CONTA NOT FOUND \n Ordenante-> " + ordenante + "\n Benificiario->" + beneficiario;
+        if (ordenante == null || beneficiario == null  ) {
+            return "CONTA NOT FOUND  OU CONTAS IGUAIS\n Ordenante-> " + ordenante + "\n Benificiario->" + beneficiario;
         }
+        /*if (ordenante  == beneficiario ) {
+            return "CONTA IGUAIS \n Ordenante-> " + ordenante + "\n Benificiario->" + beneficiario;
+        }*/
         if (ordenante.getSaldoDisponivel() < valor) {
             return "LOW BALLANCE \n Saldo insuficiente";
         }

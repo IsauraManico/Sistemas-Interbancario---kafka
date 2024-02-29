@@ -1,0 +1,122 @@
+[
+  {
+    "nif": "bd87cfd2-32e8-4ace-85e2-bb21a72ab515",
+    "nome": "Sara",
+    "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+    "telefone": "9300000",
+    "email": "sara.com",
+    "morada": null,
+    "password": null,
+    "contaRole": null,
+    "authorities": [
+      {
+        "authority": "CLIENTE"
+      }
+    ],
+    "username": "sara.com",
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+  {
+    "nif": "dfe9db56-acfe-4975-9222-dc892e64569c",
+    "nome": "ely",
+    "dataInicioEntidade": "2024-02-25T23:00:00.000+00:00",
+    "telefone": "9888888",
+    "email": "ely.com",
+    "morada": null,
+    "password": null,
+    "contaRole": null,
+    "authorities": [
+      {
+        "authority": "CLIENTE"
+      }
+    ],
+    "username": "ely.com",
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+  {
+    "nif": "576494fb-f471-4895-9010-4f778c3d872e",
+    "nome": "yura",
+    "dataInicioEntidade": null,
+    "telefone": "8999999",
+    "email": "yura.com",
+    "morada": null,
+    "password": "$2a$10$YXjYA7SESVb/FOul.LodiuTx5tq/nPCS69jDazeJbTL0vbeQcfDuO",
+    "contaRole": "CLIENTE",
+    "authorities": [
+      {
+        "authority": "CLIENTE"
+      }
+    ],
+    "username": "yura.com",
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+  {
+    "nif": "0e78f134-1e5d-4ed6-91a7-31638c1cf379",
+    "nome": "claudio",
+    "dataInicioEntidade": null,
+    "telefone": "7777777",
+    "email": "claudio.com",
+    "morada": null,
+    "password": "$2a$10$pbGmi5zzP2zoYGadyqiip.xAf1tbmcACjDNCrXc/vRTSur/rw5rXa",
+    "contaRole": "CLIENTE",
+    "authorities": [
+      {
+        "authority": "CLIENTE"
+      }
+    ],
+    "username": "claudio.com",
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+  {
+    "nif": "a00fd804-474e-4ef2-ab8f-ab7ae473f920",
+    "nome": "Rosa",
+    "dataInicioEntidade": null,
+    "telefone": "95555557",
+    "email": "rasa.com",
+    "morada": null,
+    "password": "$2a$10$d8xX8yTFqD6gl61lROVnVOpFad3Sk8GNQXKbg8MRO8fJ1dZrykuPy",
+    "contaRole": "CLIENTE",
+    "authorities": [
+      {
+        "authority": "CLIENTE"
+      }
+    ],
+    "username": "rasa.com",
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+  {
+    "nif": "f7a53329-85de-4d89-9920-f50325d52e84",
+    "nome": "joseph",
+    "dataInicioEntidade": null,
+    "telefone": "00002222",
+    "email": "joseph.com",
+    "morada": null,
+    "password": "$2a$10$HN5RWW1jT0quOaF4gTv2rO9QUyKGALuC4Gx0cv4vFzehuA7v2TDyy",
+    "contaRole": "CLIENTE",
+    "authorities": [
+      {
+        "authority": "CLIENTE"
+      }
+    ],
+    "username": "joseph.com",
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  }
+]

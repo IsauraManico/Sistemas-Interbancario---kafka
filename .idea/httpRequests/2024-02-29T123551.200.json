@@ -1,0 +1,32 @@
+[
+  {
+    "pk_historico_transacao": 1,
+    "fk_conta": {
+      "pkConta": 1,
+      "fkCliente": "a6df10b5-7805-4829-a734-a03bec433f86",
+      "saldoDisponivel": 1325.0,
+      "saldoContabilistico": -1045.0,
+      "dataCriacao": "2024-02-26T20:55:17.677+00:00",
+      "iban": "AO06004088177279101",
+      "numero_conta": null
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": -20.0,
+    "descricao": null
+  },
+  {
+    "pk_historico_transacao": 3,
+    "fk_conta": {
+      "pkConta": 1,
+      "fkCliente": "a6df10b5-7805-4829-a734-a03bec433f86",
+      "saldoDisponivel": 1325.0,
+      "saldoContabilistico": -1045.0,
+      "dataCriacao": "2024-02-26T20:55:17.677+00:00",
+      "iban": "AO06004088177279101",
+      "numero_conta": null
+    },
+    "datTransacao": "2024-02-27T23:00:00.000+00:00",
+    "saldo": -5.0,
+    "descricao": null
+  }
+]

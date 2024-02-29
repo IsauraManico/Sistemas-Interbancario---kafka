@@ -56,7 +56,7 @@ public class ErrorTransferenciaConsumer {
             System.out.println("ERRO NA ENCRIPTACAO - ERROR" + ex.getMessage());
         }
     }
-
+// a emis redireciona para um banco especifico apartir do id do banco
     private StatusENUM processarRetorno(TransferenciaRequest transferencia) {
 
         Integer numBanco = Integer.parseInt(extractDigitsAfterAO06(transferencia.getContaOrigemIban()));

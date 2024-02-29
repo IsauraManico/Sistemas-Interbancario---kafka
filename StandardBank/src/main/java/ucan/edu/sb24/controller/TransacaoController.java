@@ -28,7 +28,7 @@ public class TransacaoController {
         this.transacaoService = transacaoService;
     }
 
-    @GetMapping
+    @GetMapping("/listarNoBanco")
     public ResponseEntity<List<Transacao>> getAllTransacoes() {
         List<Transacao> transacoes = transacaoService.getAllTransacoes();
         return new ResponseEntity<>(transacoes, HttpStatus.OK);

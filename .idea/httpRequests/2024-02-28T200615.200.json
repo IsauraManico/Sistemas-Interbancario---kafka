@@ -1,0 +1,86 @@
+[
+  {
+    "pkConta": 1,
+    "fkCliente": {
+      "nif": "7d5c7379-5a92-4c7a-8f0e-2f0687c66396",
+      "nome": "creuma",
+      "dataInicioEntidade": null,
+      "telefone": "888888",
+      "email": "creu.com",
+      "morada": "viana",
+      "contaRole": null,
+      "password": null,
+      "authorities": [
+        {
+          "authority": "CLIENTE"
+        }
+      ],
+      "username": "creu.com",
+      "accountNonExpired": true,
+      "accountNonLocked": true,
+      "credentialsNonExpired": true,
+      "enabled": true
+    },
+    "saldoDisponivel": 4000.0,
+    "saldoContabilistico": -1990.0,
+    "dataCriacao": "2024-02-28T02:26:29.753+00:00",
+    "iban": "AO06003052548535101",
+    "numero_conta": "52548535"
+  },
+  {
+    "pkConta": 2,
+    "fkCliente": {
+      "nif": "7d5c7379-5a92-4c7a-8f0e-2f0687c66396",
+      "nome": "creuma",
+      "dataInicioEntidade": null,
+      "telefone": "888888",
+      "email": "creu.com",
+      "morada": "viana",
+      "contaRole": null,
+      "password": null,
+      "authorities": [
+        {
+          "authority": "CLIENTE"
+        }
+      ],
+      "username": "creu.com",
+      "accountNonExpired": true,
+      "accountNonLocked": true,
+      "credentialsNonExpired": true,
+      "enabled": true
+    },
+    "saldoDisponivel": 10110.0,
+    "saldoContabilistico": 120.0,
+    "dataCriacao": "2024-02-28T02:30:58.708+00:00",
+    "iban": "AO06003079630833101",
+    "numero_conta": "79630833"
+  },
+  {
+    "pkConta": 3,
+    "fkCliente": {
+      "nif": "7da32e6d-932e-4be4-9e73-9f397145c6a7",
+      "nome": "Gemilson",
+      "dataInicioEntidade": null,
+      "telefone": "9000000",
+      "email": "gemilson.com",
+      "morada": "anturios",
+      "contaRole": null,
+      "password": null,
+      "authorities": [
+        {
+          "authority": "CLIENTE"
+        }
+      ],
+      "username": "gemilson.com",
+      "accountNonExpired": true,
+      "accountNonLocked": true,
+      "credentialsNonExpired": true,
+      "enabled": true
+    },
+    "saldoDisponivel": 19895.0,
+    "saldoContabilistico": -25.0,
+    "dataCriacao": "2024-02-28T07:28:35.296+00:00",
+    "iban": "AO06003040176865101",
+    "numero_conta": "40176865"
+  }
+]
