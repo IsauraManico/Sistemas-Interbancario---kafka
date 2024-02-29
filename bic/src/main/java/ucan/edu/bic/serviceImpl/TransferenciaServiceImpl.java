@@ -5,6 +5,9 @@
 package ucan.edu.bic.serviceImpl;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -15,6 +18,8 @@ import ucan.edu.bic.dto.TransferenciaRequest;
 import ucan.edu.bic.ententies.Conta;
 import ucan.edu.bic.ententies.Status;
 import ucan.edu.bic.ententies.Transacao;
+import ucan.edu.bic.history_transations.entities.HistoricoTransacao;
+import ucan.edu.bic.history_transations.repositories.HistoricoTransacaoRepository;
 import ucan.edu.bic.producer.TransferenciaRequestProducer;
 import ucan.edu.bic.service.ContaService;
 import ucan.edu.bic.service.StatusService;
@@ -28,15 +33,18 @@ import ucan.edu.bic.service.TransferenciaService;
 @Service
 public class TransferenciaServiceImpl implements TransferenciaService {
 
-    public TransferenciaServiceImpl(ContaService contaService, TransacaoService transacaoService, StatusService statusService) {
+    @Autowired
+    private HistoricoTransacaoRepository historicoTransacaoRepository;
+
+    public TransferenciaServiceImpl(ContaServiceImpl contaService, TransacaoServiceImpl transacaoService, StatusServiceImpl statusService) {
         this.contaService = contaService;
         this.transacaoService = transacaoService;
         this.statusService = statusService;
     }
 
-    private final ContaService contaService;
-    private final TransacaoService transacaoService;
-    private final StatusService statusService;
+    private final ContaServiceImpl contaService;
+    private final TransacaoServiceImpl transacaoService;
+    private final StatusServiceImpl statusService;
     @Autowired
     private TransferenciaRequestProducer transferenciaRequestProducer;
 
@@ -80,6 +88,26 @@ public class TransferenciaServiceImpl implements TransferenciaService {
         transacao.setDataInicial(new Date());
         transacao.setDataFinal(new Date());
         transacaoService.createTransacao(transacao);
+
+        // Registro da transação no histórico
+
+        HistoricoTransacao historicoTransacao = new HistoricoTransacao();
+        historicoTransacao.setFk_conta(ordenante);
+        historicoTransacao.setDatTransacao(new Date());
+        historicoTransacao.setSaldo(-valor);
+        LocalDate localDate = LocalDate.now();
+        //Date date = new Date(localDate);
+        historicoTransacao.setDatTransacao(Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant()));
+        historicoTransacaoRepository.save(historicoTransacao);
+
+        HistoricoTransacao historicoTransacao2 = new HistoricoTransacao();
+        historicoTransacao2.setFk_conta(beneficiario);
+        historicoTransacao2.setDatTransacao(new Date());
+        historicoTransacao2.setSaldo(valor);
+        LocalDate localDate1 = LocalDate.now();
+        //Date date = new Date(localDate);
+        historicoTransacao2.setDatTransacao(Date.from(localDate1.atStartOfDay(ZoneId.systemDefault()).toInstant()));
+        historicoTransacaoRepository.save(historicoTransacao2);
         return "Sucesso!";
     }
 
@@ -107,6 +135,8 @@ public class TransferenciaServiceImpl implements TransferenciaService {
         transacao.setFkStatus(status);
         transacao.setDataInicial(new Date());
         transacao = transacaoService.createTransacao(transacao);
+
+
 
         beneficiario.setIban(transferenciaRequest.getContaDestinoIban());
         transferenciaRequest.setPk(transacao.getPkTransacao());

@@ -1,0 +1,14 @@
+package ucan.edu.sb24.history_transations.dtos;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+public class HistoricoTransacaoDto {
+
+    private String numeroConta;
+    private Float quantia;
+
+
+}

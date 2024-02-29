@@ -42,7 +42,7 @@ public class TransferenciaRequestProducer {
         byte[] encryptedBytes = cipher.doFinal(message.getBytes(StandardCharsets.UTF_8));
         return Base64.getEncoder().encodeToString(encryptedBytes);
     }
-
+//este método é responsável por enviar uma mensagem para o tópico "EMIS-INTRA
     public String sendMessageIntra(TransferenciaRequest transferenciaRequest) throws JsonProcessingException {
 
         try {
@@ -54,6 +54,7 @@ public class TransferenciaRequestProducer {
         }
 
     }
+//este método é responsável por enviar uma mensagem para o tópico "EMIS-INTER
 
     public String sendMessageInter(TransferenciaRequest transferenciaRequest) throws JsonProcessingException {
 
@@ -65,6 +66,7 @@ public class TransferenciaRequestProducer {
             return "ERRO DE ENCRIPTACAO - TransferenciaRequestProducer.Inter";
         }
     }
+//este método é responsável por enviar uma mensagem para o tópico "EMIS-ERROR
 
     public String sendMessageError404(TransferenciaRequest transferenciaRequest) throws JsonProcessingException {
 

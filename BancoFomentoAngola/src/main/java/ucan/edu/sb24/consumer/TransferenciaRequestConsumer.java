@@ -54,6 +54,9 @@ public class TransferenciaRequestConsumer {
     )
     public void consume(String message) {
 
+
+        // descriptografa a mensagem apartir de uma chave
+
         try {
             TransferenciaRequest transferencia;
             transferencia = TransferenciaRequest.fromString(decryptMessage(key, message));

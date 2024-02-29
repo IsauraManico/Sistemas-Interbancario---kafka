@@ -22,3 +22,5 @@ public interface ClienteRepository extends JpaRepository<Cliente, String> {
     UserDetails findByNome(String nome);
 
 }
+
+

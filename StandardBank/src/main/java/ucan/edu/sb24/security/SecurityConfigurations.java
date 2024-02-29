@@ -32,6 +32,7 @@ public class SecurityConfigurations {
                                 .requestMatchers( "/sb24/transferir/**").permitAll()
                                 .requestMatchers( "/sb24/-status/**").permitAll()
                                 .requestMatchers( "/sb24/saldohistorico/**").permitAll()//hasRole("CLIENTE")
+                                .requestMatchers( "/history/**").permitAll()//hasRole("CLIENTE")
 
                                 .requestMatchers( "/sb24/transacoes/**").permitAll()//hasRole("CLIENTE")
 

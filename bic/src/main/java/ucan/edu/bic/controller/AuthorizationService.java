@@ -6,7 +6,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import ucan.edu.sb24.repository.ClienteRepository;
+import ucan.edu.bic.repository.ClienteRepository;
 
 @Service
 public class AuthorizationService implements UserDetailsService {

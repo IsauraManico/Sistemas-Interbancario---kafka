@@ -5,6 +5,9 @@
 package ucan.edu.sb24.serviceImpl;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -15,6 +18,8 @@ import ucan.edu.sb24.dto.TransferenciaRequest;
 import ucan.edu.sb24.ententies.Conta;
 import ucan.edu.sb24.ententies.Status;
 import ucan.edu.sb24.ententies.Transacao;
+import ucan.edu.sb24.history_transations.entities.HistoricoTransacao;
+import ucan.edu.sb24.history_transations.repositories.HistoricoTransacaoRepository;
 import ucan.edu.sb24.producer.TransferenciaRequestProducer;
 import ucan.edu.sb24.service.ContaService;
 import ucan.edu.sb24.service.StatusService;
@@ -28,15 +33,18 @@ import ucan.edu.sb24.service.TransferenciaService;
 @Service
 public class TransferenciaServiceImpl implements TransferenciaService {
 
-    public TransferenciaServiceImpl(ucan.edu.sb24.service.ContaService contaService, ucan.edu.sb24.service.TransacaoService transacaoService, ucan.edu.sb24.service.StatusService statusService) {
+    @Autowired
+    private HistoricoTransacaoRepository historicoTransacaoRepository;
+
+    public TransferenciaServiceImpl(ContaServiceImpl contaService, TransacaoServiceImpl transacaoService, StatusServiceImpl statusService) {
         this.contaService = contaService;
         this.transacaoService = transacaoService;
         this.statusService = statusService;
     }
 
-    private final ContaService contaService;
-    private final TransacaoService transacaoService;
-    private final StatusService statusService;
+    private final ContaServiceImpl contaService;
+    private final TransacaoServiceImpl transacaoService;
+    private final StatusServiceImpl statusService;
     @Autowired
     private TransferenciaRequestProducer transferenciaRequestProducer;
 
@@ -80,6 +88,27 @@ public class TransferenciaServiceImpl implements TransferenciaService {
         transacao.setDataInicial(new Date());
         transacao.setDataFinal(new Date());
         transacaoService.createTransacao(transacao);
+
+        // Registro da transação no histórico
+
+        HistoricoTransacao historicoTransacao = new HistoricoTransacao();
+        historicoTransacao.setFk_conta(ordenante);
+        historicoTransacao.setDatTransacao(new Date());
+        historicoTransacao.setSaldo(-valor);
+        LocalDate localDate = LocalDate.now();
+        //Date date = new Date(localDate);
+        historicoTransacao.setDatTransacao(Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant()));
+        historicoTransacaoRepository.save(historicoTransacao);
+
+        HistoricoTransacao historicoTransacao2 = new HistoricoTransacao();
+        historicoTransacao2.setFk_conta(beneficiario);
+        historicoTransacao2.setDatTransacao(new Date());
+        historicoTransacao2.setSaldo(valor);
+        LocalDate localDate1 = LocalDate.now();
+        //Date date = new Date(localDate);
+        historicoTransacao2.setDatTransacao(Date.from(localDate1.atStartOfDay(ZoneId.systemDefault()).toInstant()));
+        historicoTransacaoRepository.save(historicoTransacao2);
+
         return "Sucesso!";
     }
 
@@ -108,11 +137,15 @@ public class TransferenciaServiceImpl implements TransferenciaService {
         transacao.setDataInicial(new Date());
         transacao = transacaoService.createTransacao(transacao);
 
+
+
         beneficiario.setIban(transferenciaRequest.getContaDestinoIban());
         transferenciaRequest.setPk(transacao.getPkTransacao());
         transferenciaRequest.setStatus(transacao.getFkStatus().getPkStatus());
         return integrarTransferencia(transferenciaRequest, sameBank(ordenante, beneficiario));
     }
+
+    //parte da EMIS, ONDE Entra a logica da emis no topicos
 
     @Override
     public String integrarTransferencia(TransferenciaRequest transferenciaRequest, Boolean sameBank) {
@@ -127,6 +160,7 @@ public class TransferenciaServiceImpl implements TransferenciaService {
         }
     }
 
+    //pega os 4 digitos depois do AO006
     public static String extractDigitsAfterAO06(String iban) {
         Pattern pattern = Pattern.compile("AO06(\\d{4})");
         Matcher matcher = pattern.matcher(iban);
@@ -137,6 +171,9 @@ public class TransferenciaServiceImpl implements TransferenciaService {
             return "Não foi possível encontrar os 4 dígitos após 'AO06'\n" + iban;
         }
     }
+
+    //Esse código compara se duas contas (Conta) pertencem ao mesmo banco com base
+    // nos quatro dígitos que seguem a sequência "AO06" em seus respectivos números IBAN.
 
     public static boolean sameBank(Conta conta1, Conta conta2) {
         return extractDigitsAfterAO06(conta1.getIban()).equals(extractDigitsAfterAO06(conta2.getIban()));
